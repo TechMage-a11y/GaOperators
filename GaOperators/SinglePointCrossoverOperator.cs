@@ -16,9 +16,7 @@ public sealed class SinglePointCrossover : ICrossover
         CrossoverProbability = crossoverProbability;
     }
 
-    /// <summary>
-    /// Возвращает вероятность выполнения скрещивания.
-    /// </summary>
+    /// <summary>Вероятность выполнения скрещивания.</summary>
     public double CrossoverProbability { get; }
 
     /// <summary>Возвращает потомков после обмена частей родителей.</summary>

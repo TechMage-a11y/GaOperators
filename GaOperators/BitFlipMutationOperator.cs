@@ -16,9 +16,7 @@ public sealed class BitFlipMutation : IMutation
         MutationProbability = mutationProbability;
     }
 
-    /// <summary>
-    /// Возвращает вероятность инвертирования каждого гена.
-    /// </summary>
+    /// <summary>Вероятность инвертирования каждого гена.</summary>
     public double MutationProbability { get; }
 
     /// <summary>Возвращает копию хромосомы после мутации.</summary>

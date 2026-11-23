@@ -16,9 +16,7 @@ public sealed class UniformCrossover : ICrossover
         CrossoverProbability = crossoverProbability;
     }
 
-    /// <summary>
-    /// Возвращает вероятность выполнения скрещивания.
-    /// </summary>
+    /// <summary>Вероятность выполнения скрещивания.</summary>
     public double CrossoverProbability { get; }
 
     /// <summary>Возвращает двух потомков.</summary>

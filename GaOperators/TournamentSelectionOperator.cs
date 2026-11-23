@@ -18,9 +18,7 @@ public sealed class TournamentSelection : ISelection
         TournamentSize = tournamentSize;
     }
 
-    /// <summary>
-    /// Возвращает количество участников в каждом турнире.
-    /// </summary>
+    /// <summary>Количество участников в каждом турнире.</summary>
     public int TournamentSize { get; }
 
     /// <summary>Возвращает индексы победителей заданного числа турниров.</summary>
